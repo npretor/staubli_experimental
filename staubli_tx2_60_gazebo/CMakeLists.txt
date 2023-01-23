@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(staubli_tx60_gazebo)
+project(staubli_tx2_60_gazebo)
 
 find_package(catkin REQUIRED)
 

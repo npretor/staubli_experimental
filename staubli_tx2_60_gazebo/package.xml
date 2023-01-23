@@ -16,8 +16,8 @@
       configuration you intend to use them with.
     </p>
   </description>
-  <author>Nils Melchert (Leibniz University Hannover)</author>
-  <maintainer email="g.a.vanderhoorn@tudelft.nl">G.A. vd. Hoorn (TU Delft Robotics Institute)</maintainer>
+  <author>Nathan Pretorius - NextFlex.us</author>
+  <maintainer email="nathanpretorius@icloud.com">Nathan Pretorius</maintainer>
   <license>Apache2.0</license>
 
   <url type="website">http://wiki.ros.org/staubli_experimental</url>
@@ -35,7 +35,7 @@
   <exec_depend>position_controllers</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
   <exec_depend>staubli_resources</exec_depend>
-  <exec_depend>staubli_tx60_support</exec_depend>
+  <exec_depend>staubli_tx2_60_support</exec_depend>
 
   <export>
     <architecture_independent />
