@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<robot name="staubli_tx2_60_upsidedown" xmlns:xacro="http://wiki.ros.org/xacro">
+  <xacro:include filename="$(find staubli_tx2_60_support)/urdf/tx2_60_macro.xacro"/>
+  <xacro:staubli_tx2_60 prefix=""/>
+
+  <link name="world"/>
+  <joint name="ceiling_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 ${radians(180)} 0"/>
+    <parent link="world"/>
+    <child link="robot_base_link"/>
+  </joint>
+
+</robot>
